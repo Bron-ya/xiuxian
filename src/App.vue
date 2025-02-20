@@ -12,7 +12,7 @@ const route = useRoute()
 const playerStore = usePlayerStore()
 
 // 灵力获取相关配置
-const baseGainRate = 1  // 基础灵力获取率
+const baseGainRate = 1000  // 基础灵力获取率
 const autoGainInterval = 1000  // 自动获取灵力的间隔（毫秒）
 const spiritTimer = ref(null)
 
